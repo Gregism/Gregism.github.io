@@ -1,0 +1,20 @@
+{"basic_information":{"name":"Gregory Terrell Smith", "email":"gregory.terrell.smith@gmail.com","phone":"408-476-7639"},
+  "skills":["JavaScript", "jQuery", "Cold Fusion", "Node.js", "Ruby On Rails", "HTML", "CSS", "XML",  "SQL", "Actionscript 2.0 & 3.0"],
+"work_history":[
+  {
+    "company":"Mirus",
+    "position": "Web Developer"
+  },
+  {
+    "company":"Cosentino",
+    "position": "Coldfusion Programmer"
+  },
+  {
+    "company":"Connect Learning",
+    "position": "Lead Instructor"
+  },
+  {
+    "company":"Avidex",
+    "position": "Project Manager"
+  }
+]}
