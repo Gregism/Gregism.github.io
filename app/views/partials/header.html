@@ -14,17 +14,27 @@
 
     <!-- Content to be toggled -->
     <div class="collapse navbar-collapse" id="collapser">
+      <!-- Repo Drop Down -->
       <ul class="nav navbar-nav">
         <li ng-class="{'active': sectionInfo.title == 'Home'}"><a href="/">Home</a></li>
         <li ng-class="{'active': sectionInfo.title == 'Experiments'}"><a href="/#/exp">Experiments</a></li>
+        <li ng-class="{'active': sectionInfo.title == 'Music'}"><a href="/#/music">'Music'</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Repos <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
+            <li><a href="https://github.com/Gregism/sequencer">Gregism.github.io</a></li>
             <li><a href="https://github.com/Gregism/shelby_v2">Shelby Hohl-ROR Site</a></li>
             <li><a href="https://github.com/Gregism/sequencer">Sequencer</a></li>
           </ul>
         </li>
       </ul>
+
+      <!-- Search -->
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input name="q" placeholder="Search..." type="text" ng-model="search.query">
+        </div>
+      </form>
     </div>
   </div>
 </nav>

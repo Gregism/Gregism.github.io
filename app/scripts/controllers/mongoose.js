@@ -5,4 +5,6 @@ angular.module('mongoose')
     $scope.sectionInfo = {
       title: ""
     }
+    
+    $scope.search = {};
   });

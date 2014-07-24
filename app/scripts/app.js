@@ -15,6 +15,10 @@ angular.module('mongoose', ['ngRoute'])
       templateUrl: 'app/views/experiments.html',
       controller: 'expCtrl'
     })
+    .when('/music', {
+      templateUrl: 'app/views/music.html',
+      controller: 'musicCtrl'
+    })
     .otherwise({
       redirectTo: '/'
     });
