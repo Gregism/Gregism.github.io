@@ -1,0 +1,24 @@
+/*.img-circle{
+  width: 100px;
+  height: 100px;
+  float: left;
+  z-index: 2;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+.box{
+  height: 20px;
+  width: 768px;
+  border: 1px dotted pink;
+}
+.xs-box{
+  width: 768px;
+}
+.sm-box{
+  width: 992px;
+}
+.md-box{
+  width: 1200px;
+}*/

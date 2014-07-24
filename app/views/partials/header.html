@@ -1,0 +1,30 @@
+<!-- <img class="navbar-brand img-circle logo" src="app/images/mongooseCobra_3.0.jpg"/> -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and Toggle -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapser">
+        <span class="sr-only">Toggle Nav</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Gregism</a>
+    </div>
+
+    <!-- Content to be toggled -->
+    <div class="collapse navbar-collapse" id="collapser">
+      <ul class="nav navbar-nav">
+        <li ng-class="{'active': sectionInfo.title == 'Home'}"><a href="/">Home</a></li>
+        <li ng-class="{'active': sectionInfo.title == 'Experiments'}"><a href="/#/exp">Experiments</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Repos <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="https://github.com/Gregism/shelby_v2">Shelby Hohl-ROR Site</a></li>
+            <li><a href="https://github.com/Gregism/sequencer">Sequencer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
