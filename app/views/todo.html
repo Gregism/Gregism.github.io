@@ -1,0 +1,19 @@
+<form>
+  <div class="form-group">
+    <label>New Todo</label>
+    <input type="text" class="form-control" ng-model="todoInput" placeholder="I need to...">
+    <button class="btn btn-default" ng-click="addTodo(todoInput)">Submit</button>
+  </div>
+</form>
+
+<ul>
+  <li ng-repeat="todo in todos">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" ng-click="removeTodo(todo)">
+      </span>
+      <span class="form-control"> {{todo}} </span>
+    </div><!-- /input-group -->
+  </li>
+</ul>
+
