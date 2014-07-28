@@ -26,3 +26,8 @@
 ul{
   list-style-type: none;
 }
+
+.hide-submit {
+    position: absolute;
+    visibility: hidden;
+}

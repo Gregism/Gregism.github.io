@@ -11,6 +11,7 @@ angular.module('mongoose')
     
     $scope.addTodo = function(todo){
       Todos.createTodo(todo);
+      $scope.todoInput = "";
       $scope.refreshTodos();
     }
 
